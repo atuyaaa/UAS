@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+
+  .home
+{
+float: left;
+width: 100%;
+}
+.judulc{
+   margin-top: 100px;
+   background-color: #555;
+}
+
+.profile
+{
+    float: left;
+    width: 100%;
+}
+.profile table td {
+    border: 3px solid #612525;
+
+}
+
+.profile table table{
+    border-top: 3px solid #612525;
+    margin-left: 20px;
+}
+.table{
+    margin-bottom: 100px;
+}
+.h2{
+    background-color: #555;
+}
+.forms
+{
+    width: 100%;
+    
+}
+.last{
+    margin-bottom: 100px;
+    margin-left: 20px;
+    
+}
+

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UAS Pemrograman Web</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<h1>Pemrograman web 1 dan Internet</h1>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#form">Form</a></li>
+      <li><a href="#table">Table</a></li>
+    </ul>
+  </nav>
+
+  <!-- Konten -->
+  <section id="home">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+      </ol>  
+    </nav>
+ <div class="judul">
+        <h2>Selamat Datang</h2>
+        <p>Pernyataan:</p>
+        <p>Saya mengerjakan project ini sendiri dengan tidak copy-paste dari teman apalagi plagiat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="profile"> 
+  <div class="judulc">
+  <h2>Profile</h2>
+</div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Profile</li>
+    </ol>  
+  </nav>
+  <div class="profile table">
+  <table>
+                <thead>
+                    <tr>
+                        <td>NIM</td>
+                        <td>23641020</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nama</td>
+                        <td>Siti Khairunnisa Ratu Rahmah</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>Perempuan</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Program Studi</td>
+                        <td>Informatika</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+</section>
+
+<section id="form">
+  <div class="juduld">
+ <h2>Form</h2>
+</div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Form</li>
+    </ol>
+  </nav>
+    <div class="forms">
+        <form>
+          <div class="form-group">
+            <label for="nim">NIM:</label>
+            <input type="number" class="form-control" id="nim" placeholder="Masukkan NIM" name="nim">
+          </div>
+          <div class="form-group">
+            <label for="nama">Nama:</label>
+            <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama" name="nama">
+          </div>
+          <div class="form-group">
+            <label for="jeniskelamin">Jenis Kelamin:</label> 
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Pilih</option>
+                    <option value="1">Laki-Laki</option>
+                    <option value="2">Perempuan</option>
+                  </select>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="prodi">Program Studi:</label> 
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Pilih</option>
+                            <option value="1">Informatika</option>
+                            <option value="2">Sistem Informasi</option>
+                            <option value="3">Hukum</option>
+                            <option value="4">Teknik Sipil</option>
+                          </select>
+                          </div>
+            </label>
+        </div>
+        </form>
+      </div>
+</section>
+
+<section id="table">
+  <div class="judulc">
+    <h2>Table</h2>
+  </div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Table</li>
+    </ol>
+  </nav>
+  <div class="last">
+    <table class="table stripped-table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">NIM</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Jenis Kelamin</th>
+            <th scope="col">Program Studi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>12345</td>
+            <td>Boo</td>
+            <td>Laki-Laki</td>
+            <td>Teknik Informatika</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>11223</td>
+            <td>Brown</td>
+            <td>Laki-Laki</td>
+            <td>Teknik Informatika</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>12233</td>
+            <td>Mooray</td>
+            <td>Laki-Laki</td>
+            <td>Teknik Informatika</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+</section>
+
+  <!-- Panggil file JavaScript Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="sdg.js"></script>
+  <link rel="stylesheet" link href="lala.css">
+</body>
+</html>
